@@ -1,0 +1,9 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "Java web application for email management",
+  "private": true,
+  "engines": {
+    "java": "1.8"
+  }
+}
