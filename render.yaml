@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: send-email
+    name: send-email-web
     env: java
     region: singapore
     plan: free
