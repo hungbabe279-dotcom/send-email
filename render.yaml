@@ -4,6 +4,5 @@ services:
     env: java
     region: singapore
     plan: free
-    root: .
-    buildCommand: mvn clean package -DskipTests
+    buildCommand: mvn clean install -DskipTests
     startCommand: java -Xmx512m -Xms256m -jar target/dependency/webapp-runner.jar --port $PORT target/send-email.war
